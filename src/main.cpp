@@ -4,12 +4,12 @@
 #include <ArduinoJson.h>
 
 // --- 1. PREENCHA COM OS DADOS DA SUA CASA/FACULDADE ---
-const char* ssid = "LIVE TIM_3CF0_2G";      
-const char* password = "f6axp43c73"; 
+const char* ssid = "NOME_DO_SEU_WIFI";      
+const char* password = "SENHA_DO_SEU_WIFI"; 
 
 // --- 2. O IP DO SEU COMPUTADOR ---
 // O ESP8266 NÃO entende "localhost". Ele precisa do IP real da sua máquina na rede (ex: 192.168.1.15)
-const char* mqtt_server = "192.168.1.4";    
+const char* mqtt_server = "COLOQUE_SEU_IP_AQUI";    
 const char* mqtt_topic = "t/fechadura";
 
 // --- 3. PINOS DE HARDWARE ---
